@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-def run_blast_script():
+def run_blast_script():#SAVE
     current_dir = os.path.dirname(os.path.abspath(__file__))
     # path yang di run:
     script_path = os.path.join(current_dir, 'whatsapp_blast.py')
